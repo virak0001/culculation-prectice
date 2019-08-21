@@ -1,0 +1,32 @@
+body {
+    background:rgb(176, 179, 177);
+    display: flex;
+    justify-content: center;
+}
+.main {
+    margin-top: 150px;
+    background:rgb(204, 203, 203);
+    padding: 20px;
+    border-radius: 20px;
+}
+.textview {
+    padding: 10px;
+    width:90%;
+    margin-bottom: 20px;
+}
+td input[type="button"] {
+    padding: 10px;
+    width:50px;
+    background: rgb(80, 58, 58);
+    color:white;
+    border:none;
+}
+td input[type="button"]:hover {
+    border:blue;
+}
+td input:hover {
+    background: rgb(10, 162, 196);
+}
+p {
+    margin-bottom: 0px;
+}
